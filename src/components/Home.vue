@@ -8,7 +8,7 @@
       <img v-bind:src="user.avatar_url" width="200" height="200"> <br>
       <label v-if="user.login">Username : {{ user.login }}</label> <br>
       <label v-if="user.name">Profile name : {{ user.name | capitalize }}</label> <br>
-      <label v-if="user.bio">Profile bio : {{ user.bio }}</label>
+      <label v-if="user.bio">Profile bio : {{ user.bio }}</label> <br>
       <label v-if="user.created_at">Account created : {{ user.created_at | formatDate }}</label>
     </div>
   </div>
